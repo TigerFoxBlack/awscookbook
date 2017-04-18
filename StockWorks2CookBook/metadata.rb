@@ -1,4 +1,7 @@
 name             'StockWorks2CookBook'
+depends 'git'
+depends 'application_python'
+depends 'build-essential'
 maintainer       'YOUR_COMPANY_NAME'
 maintainer_email 'YOUR_EMAIL'
 license          'All rights reserved'
