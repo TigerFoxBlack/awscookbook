@@ -10,7 +10,7 @@ include_recipe 'git'
 include_recipe 'nginx'
 
 application '/srv/myapp' do
-  git 'https://github.com/example/myapp.git'
+  git 'https://github.com/mariusfortyone/StockWorks2.git'
   virtualenv
   pip_requirements
   django do
