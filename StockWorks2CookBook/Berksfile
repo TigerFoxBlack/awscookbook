@@ -1,3 +1,5 @@
 source 'https://supermarket.chef.io'
-
+depends 'application_python'
+depends 'build-essential'
+depends 'poise-python
 metadata
