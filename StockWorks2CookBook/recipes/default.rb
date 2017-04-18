@@ -6,7 +6,7 @@
 #
 # All rights reserved - Do Not Redistribute
 #
-include_recipe 'application_python'
+include_recipe 'build-essential'
 
 application '/srv/myapp' do
   git 'https://github.com/mariusfortyone/StockWorks2.git'
