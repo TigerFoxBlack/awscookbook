@@ -6,8 +6,7 @@
 #
 # All rights reserved - Do Not Redistribute
 #
-include_recipe 'git'
-include_recipe 'nginx'
+include_recipe 'application_python'
 
 application '/srv/myapp' do
   git 'https://github.com/mariusfortyone/StockWorks2.git'
